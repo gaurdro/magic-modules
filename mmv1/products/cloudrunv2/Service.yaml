@@ -346,6 +346,7 @@ properties:
     properties:
       - name: 'revision'
         type: String
+        default_from_api: true
         description: |-
           The unique name for the revision. If this field is omitted, it will be automatically generated based on the Service name.
       - name: 'labels'
